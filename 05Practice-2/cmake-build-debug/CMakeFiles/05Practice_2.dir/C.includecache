@@ -6,13 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/Users/seunggyun-jeong/Desktop/System_Programming/04Practice_1/main.c
+/Users/seunggyun-jeong/Desktop/System_Programming/05Practice-2/main.c
 stdio.h
+-
+sys/stat.h
+-
+dirent.h
+-
+pwd.h
+-
+grp.h
 -
 stdlib.h
 -
-fcntl.h
+time.h
 -
-unistd.h
+string.h
 -
 

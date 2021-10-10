@@ -54,16 +54,16 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/seunggyun-jeong/Desktop/System_Programming/04Practice_1
+CMAKE_SOURCE_DIR = /Users/seunggyun-jeong/Desktop/System_Programming/05Practice-2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/seunggyun-jeong/Desktop/System_Programming/04Practice_1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/seunggyun-jeong/Desktop/System_Programming/05Practice-2/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Practice_1.dir/all
+all: CMakeFiles/05Practice_2.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Practice_1.dir/clean
+clean: CMakeFiles/05Practice_2.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Practice_1.dir
+# Target rules for target CMakeFiles/05Practice_2.dir
 
 # All Build rule for target.
-CMakeFiles/Practice_1.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practice_1.dir/build.make CMakeFiles/Practice_1.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practice_1.dir/build.make CMakeFiles/Practice_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/seunggyun-jeong/Desktop/System_Programming/04Practice_1/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Practice_1"
-.PHONY : CMakeFiles/Practice_1.dir/all
+CMakeFiles/05Practice_2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05Practice_2.dir/build.make CMakeFiles/05Practice_2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05Practice_2.dir/build.make CMakeFiles/05Practice_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/seunggyun-jeong/Desktop/System_Programming/05Practice-2/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 05Practice_2"
+.PHONY : CMakeFiles/05Practice_2.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Practice_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/seunggyun-jeong/Desktop/System_Programming/04Practice_1/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Practice_1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/seunggyun-jeong/Desktop/System_Programming/04Practice_1/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Practice_1.dir/rule
+CMakeFiles/05Practice_2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/seunggyun-jeong/Desktop/System_Programming/05Practice-2/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/05Practice_2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/seunggyun-jeong/Desktop/System_Programming/05Practice-2/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/05Practice_2.dir/rule
 
 # Convenience name for target.
-Practice_1: CMakeFiles/Practice_1.dir/rule
-.PHONY : Practice_1
+05Practice_2: CMakeFiles/05Practice_2.dir/rule
+.PHONY : 05Practice_2
 
 # clean rule for target.
-CMakeFiles/Practice_1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practice_1.dir/build.make CMakeFiles/Practice_1.dir/clean
-.PHONY : CMakeFiles/Practice_1.dir/clean
+CMakeFiles/05Practice_2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/05Practice_2.dir/build.make CMakeFiles/05Practice_2.dir/clean
+.PHONY : CMakeFiles/05Practice_2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
