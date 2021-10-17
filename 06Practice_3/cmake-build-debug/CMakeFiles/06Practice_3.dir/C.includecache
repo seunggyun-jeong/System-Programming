@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/seunggyun-jeong/Desktop/System_Programming/06Practice_3/lockt.h
+
+/Users/seunggyun-jeong/Desktop/System_Programming/06Practice_3/main.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+fcntl.h
+-
+student.h
+/Users/seunggyun-jeong/Desktop/System_Programming/06Practice_3/student.h
+lockt.h
+/Users/seunggyun-jeong/Desktop/System_Programming/06Practice_3/lockt.h
+
+/Users/seunggyun-jeong/Desktop/System_Programming/06Practice_3/student.h
+

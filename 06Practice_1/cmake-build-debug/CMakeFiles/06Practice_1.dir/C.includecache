@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/seunggyun-jeong/Desktop/System_Programming/06Practice_1/main.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+fcntl.h
+-
+student.h
+/Users/seunggyun-jeong/Desktop/System_Programming/06Practice_1/student.h
+
+/Users/seunggyun-jeong/Desktop/System_Programming/06Practice_1/student.h
+
