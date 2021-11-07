@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/seunggyun-jeong/Desktop/System_Programming/06Practice_2/locks.c" "/Users/seunggyun-jeong/Desktop/System_Programming/06Practice_2/cmake-build-debug/CMakeFiles/06Practice_2.dir/locks.c.o"
-  "/Users/seunggyun-jeong/Desktop/System_Programming/06Practice_2/main.c" "/Users/seunggyun-jeong/Desktop/System_Programming/06Practice_2/cmake-build-debug/CMakeFiles/06Practice_2.dir/main.c.o"
+  "/Users/seunggyun-jeong/Desktop/System-Programming/06Practice_2/locks.c" "/Users/seunggyun-jeong/Desktop/System-Programming/06Practice_2/cmake-build-debug/CMakeFiles/06Practice_2.dir/locks.c.o"
+  "/Users/seunggyun-jeong/Desktop/System-Programming/06Practice_2/main.c" "/Users/seunggyun-jeong/Desktop/System-Programming/06Practice_2/cmake-build-debug/CMakeFiles/06Practice_2.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
