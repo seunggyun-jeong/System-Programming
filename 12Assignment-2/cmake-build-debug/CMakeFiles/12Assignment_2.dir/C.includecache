@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/seunggyun-jeong/Desktop/System-Programming/12Assignment-2/main.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+unistd.h
+-
+
